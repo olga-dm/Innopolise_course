@@ -7,7 +7,6 @@ public class Task4 {
         System.out.print("Введи количество чисел Фибоначчи: ");
         int a = Integer.parseInt(in.nextLine());
         in.close();
-        int f = 0;
         long fib1 = 1;
         long fib2 = 1;
 

@@ -1,8 +1,8 @@
-public class Task6 {
-    public static void number(int a, int b, int z) {
+public class Task7 {
+    public static void number(int a, int z) {
         for (int j = 0; j < z; j++) {
 
-            for (int i = 0; i < b; i++) {
+            for (int i = 0; i < j+1; i++) {
                 System.out.print(a+" ");
             }
             System.out.println();
@@ -12,9 +12,8 @@ public class Task6 {
 
     public static void main(String[] args) {
         int a = 3;
-        int b = 5;
-        int z = 2;
-        number(a, b, z);
+        int z = 6;
+        number(a, z);
 
     }
 }
